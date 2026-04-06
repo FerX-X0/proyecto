@@ -1,0 +1,31 @@
+# Proyecto: Minería de Datos con IA
+
+## Objetivo
+Analizar qué factores influyen más en las ventas de un producto en una tienda online.
+
+## Fuente de datos
+Dataset simulado con 500 filas, columnas: Producto, Categoría, Precio, Descuento, Mes, Ventas.
+
+## Proceso de limpieza
+- Eliminación de duplicados.
+- Relleno de valores faltantes con promedio por categoría.
+- Normalización de variables numéricas (Precio, Descuento).
+- Corrección de formatos en columnas de Mes y Categoría.
+
+## Técnicas aplicadas
+- Regresión lineal múltiple para predecir ventas.
+- Visualización con gráficos de dispersión, barras y mapa de calor.
+
+## Resultados
+- El precio y el descuento son los factores más influyentes en las ventas.
+- La categoría y el mes también afectan la frecuencia de compra.
+- Se identificaron patrones estacionales en las ventas.
+
+## Limitaciones
+- Dataset simulado, no datos reales.
+- Modelo simple, sin variables externas como marketing o competencia.
+
+## Recomendaciones futuras
+- Usar datos reales de ventas.
+- Probar modelos más complejos (árboles de decisión, random forest).
+- Incorporar variables externas (campañas, reseñas, tendencias).
